@@ -1,4 +1,4 @@
-// 16-bit MIPS Parts
+// 16-bit ARM Parts
 // 
 // * Data Memory and IO:  This is the data memory, and some IO hardware
 // * 8x16 register file:  eight 16-bit registers
