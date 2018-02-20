@@ -5,6 +5,24 @@ Assignment for Digital Systems and Computer Design class. Implements a 16-bit AR
 
 **Disclaimer**: These files were tested in an older version of Vivado, there is no guarantee that they work in newer versions.
 
+The diagram below is the schematic for the CPU that this code is simulating.
+
+![CPU Diagram](/images/cpu-diagram.PNG?raw=true)
+
+## Contents
+* IM1.V 
+  * Instruction Memory containing assembly program
+* LEGLite-Control.V 
+  * Control module
+* LegLite-PC.V 
+  * Program Counter
+* LEGLiteSingle.V 
+  * CPU
+* Parts.V 
+  * Various modules for CPU
+* testbench-LEGLiteSingle-Stage2.V 
+  * Test Bench to run the assembly program on the simulated CPU
+
 ## Running
 ### Pre-reqs
 * These files were created and run using Vivado WebPACK.  This can be downloaded [here](https://www.xilinx.com/support/download.html). (You will need to create an account with Xilinx and fill out some survey information before downloading the software)
