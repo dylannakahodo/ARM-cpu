@@ -5,9 +5,10 @@ Assignment for Digital Systems and Computer Design class. Implements a 16-bit AR
 
 **Disclaimer**: These files were tested in an older version of Vivado, there is no guarantee that they work in newer versions.
 
-The diagram below is the schematic for the CPU that this code is simulating.
+The diagram below is the schematic for the CPU that this code is simulating. 
 
 ![CPU Diagram](/images/cpu-diagram.PNG?raw=true)
+From _Computer Organization and Design: Arm Edition_
 
 ## Contents
 * IM1.V 
