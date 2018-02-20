@@ -16,7 +16,7 @@ Assignment for Digital Systems and Computer Design class. Implements a 16-bit AR
 * Follow the steps in the New Project Wizard.
   - Name your project and choose a location to create the directory, Click Next
   - Select RTL Project, Click Next
-  - Add all the Verilog files you downloaded earlier, Click Next
+  - Click Add Files, Add all the Verilog files you downloaded earlier, Click Next
   - Don't add any Constraints
   - Keep whatever part is selected by default. (It doesn't matter since these files are just meant to run in the simulation)
 * Run a Behavioral Simulation
