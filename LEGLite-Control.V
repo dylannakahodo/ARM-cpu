@@ -41,16 +41,16 @@ reg regwrite;
 always @(opcode)
 	case(opcode)
 	0:			// ADD instruction
-	begin
-	reg2loc = 0;   // Pick 2nd reg field
-	branch = 0;    // Disable branch
-	memread = 0;   // Disable memory
-	emtoreg = 0;  // Select ALU to write to memory
-	alu_select = 0; // Have ALU do an ADD
-	memwrite = 0;  // Disable memory
-	alusrc = 0;    // Select register for input to ALU
-	regwrite = 1;  // Write result back to register file
-	end
+		begin
+		reg2loc = 0;   // Pick 2nd reg field
+		branch = 0;    // Disable branch
+		memread = 0;   // Disable memory
+		memtoreg = 0;  // Select ALU to write to memory
+		alu_select = 0; // Have ALU do an ADD
+		memwrite = 0;  // Disable memory
+		alusrc = 0;    // Select register for input to ALU
+		regwrite = 1;  // Write result back to register file
+		end
 	3:            //LOAD Instruction
         begin
         reg2loc = 0;   //Don't Care for LD   

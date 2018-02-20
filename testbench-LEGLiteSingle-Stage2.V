@@ -35,8 +35,7 @@ LEGLiteSingle cpu(
 	clock,
 	idata,
 	drdata,
-	reset,
-	probe
+	reset
 );
 
 IM IM_Circuit(idata,iaddr);
